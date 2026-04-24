@@ -120,26 +120,3 @@ Invoke-WebRequest -Uri "http://localhost:5000/api/books/1" -Method DELETE
 ```
 
 ---
-
-## Quick Start
-
-1. **Start Server:**
-   ```bash
-   php artisan serve --host=0.0.0.0 --port=5000
-   ```
-
-2. **Test API (pilih salah satu):**
-   ```bash
-   # Test dengan Get All Books
-   curl -X GET http://localhost:5000/api/books
-   
-   # atau test dengan Create Book
-   curl -X POST http://localhost:5000/api/books \
-     -H "Content-Type: application/json" \
-     -d '{"title":"Test Book","author":"Test Author","description":"Test","img":"http://test.jpg"}'
-   ```
-
-3. **Troubleshooting:**
-   - Jika port 5000 sudah terpakai, ubah ke port lain: `--port=6000`
-   - Pastikan server sedang running sebelum test curl
-   - Pastikan database migration sudah dijalankan: `php artisan migrate`
