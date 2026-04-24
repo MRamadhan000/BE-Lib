@@ -11,7 +11,7 @@ API ini menyediakan fitur CRUD (Create, Read, Update, Delete) untuk data buku.
 https://github.com/MRamadhan000/BE-Lib.git
 ```
 ```bash
-cd lib-aspire-backend
+cd Be-Lib
 ```
 
 
