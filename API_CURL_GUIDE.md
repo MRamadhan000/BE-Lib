@@ -1,23 +1,5 @@
 # Book API - cURL Command Guide
 
-## Server Setup
-
-### 1. Start Server on Different Port
-```bash
-php artisan serve --host=0.0.0.0 --port=5000
-```
-
-Setelah server berjalan, akses via:
-- `http://localhost:5000`
-- `http://127.0.0.1:5000`
-
-### 2. Run Migration (if belum)
-```bash
-php artisan migrate
-```
-
----
-
 ## cURL Commands
 
 ### 1. Get All Books
