@@ -72,4 +72,4 @@ php artisan serve
 
 Untuk melihat panduan lengkap penggunaan API (cURL & PowerShell), silakan buka:
 
-👉 [API cURL Guide](./api_curl_guide.md)
+👉 [API cURL Guide](./API_CURL_GUIDE.md)
